@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(230, 20, 20);
+    width: 100%;
+    padding: 8px;
+    border-bottom: 1px solid #000;
+    
+
+}
+
+.logo {
+    width: 50%;
+
+}
+
+.social{
+    width: 30%;
+}
+
+.titulo {
+    width: 25%;
+    font-size: 30px;
+}
+.menu {
+    width: 40%;
+}
+
+.logo img {
+    width: 110px; 
+    height: auto; 
+}
+
+.menu nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.social button{
+    width: 40px;
+    height: 40px;
+    background-color: #FFC94C ;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.social button i {
+   font-size: 20px; 
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+.table-container {
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    background-color: rgb(245, 242, 242);
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 3px 3px rgba(50,50,50,0.77);
+    -moz-box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.77);
+    box-shadow: 3px 3px 3px 3px rgba(40, 40, 50, 0.20);
+    height: 100%;
+    
+}
+
+.table-container table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    
+}
+
+.table-container table tr th{
+    height: 56px;
+    font-size: 16px;
+    font-weight: 700;
+   letter-spacing: .25px;
+   text-align: left;
+   padding-left: 160px;
+}
+
+.table-container table tr.item td{
+    border-bottom: 1px solid #c8cacc;
+    padding: 0 10px;
+}
+
+.table-container table tr.item{
+    height: 60px;
+}
+
+.table-container table tr td.icone{
+    width: 5%;
+}
+
+.table-container table tr td {
+    vertical-align: middle;
+    width: 20%;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+.table-container table tr td .button-edit{
+    font-size: 14px;
+    max-width: 90px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #FFC94C;
+    border: 2px solid #FFC94C;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 8px 10px;
+    min-height: 20px;
+}
+
+.table-container table tr td .button-delete{
+    font-size: 14px;
+    max-width: 90px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #E61414;
+    border: 2px solid #E61414;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 8px 10px;
+    min-height: 20px;
+}
+
+.table-container table tr td .button:hover{
+    background-color: #dbdef6;
+}
+
+
+.right{
+    text-align: right;
+}
+
+.icon i {
+    color: red;
+}
